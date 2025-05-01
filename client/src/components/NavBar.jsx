@@ -214,7 +214,7 @@ const Navbar = () => {
                   handleLogout();
                   setIsOpen(false);
                 }}
-                className="flex items-center gap-2 hover:bg-red-600 font-bold bg-black p-3 rounded-lg shadow transition duration-300"
+                className="flex justify-center items-center gap-2 hover:bg-red-600 font-bold bg-black p-3 rounded-lg shadow transition duration-300"
               >
                 LOGOUT
                 <FiLogOut size={18} />
