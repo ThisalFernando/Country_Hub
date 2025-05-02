@@ -76,7 +76,7 @@ const Navbar = () => {
     <nav className="bg-blue-700 fixed top-0 left-0 right-0 z-50 text-white p-3 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link to="/" className="flex items-center">
+        <Link to="https://res.cloudinary.com/fmart/image/upload/v1745471470/CountryHubLogo_xpgvql.png" className="flex items-center">
           <img src={CHLogo} alt="Logo" className="w-12 h-12 mr-2" />
           <div>
             <span className="text-2xl font-bold">
