@@ -54,7 +54,7 @@ function CountryList() {
     // Fetch favorite countries
     useEffect(() => {
         if (token) {
-            fetch("https://countryhub-backend.vercel.app/api/favorites", {
+            fetch("https://countryhubbackend-production.up.railway.app/api/favorites", {
                 headers: { Authorization: `Bearer ${token}` }
             })
                 .then(res => res.json())
@@ -71,7 +71,7 @@ function CountryList() {
         if (!token) return alert("Please log in to favorite countries.");
         try {
             if (isFavorite(countryCode)) {
-                await fetch(`https://countryhub-backend.vercel.app/api/favorites/${countryCode}`, {
+                await fetch(`https://countryhubbackend-production.up.railway.app/api/favorites/${countryCode}`, {
                     method: "DELETE",
                     headers: {
                         Authorization: `Bearer ${token}`
@@ -79,7 +79,7 @@ function CountryList() {
                 });
                 setFavorites(prev => prev.filter(fav => fav.countryCode !== countryCode));
             } else {
-                const res = await fetch("https://countryhub-backend.vercel.app/api/favorites", {
+                const res = await fetch("https://countryhubbackend-production.up.railway.app/api/favorites", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
