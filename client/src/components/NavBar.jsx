@@ -29,7 +29,7 @@ const Navbar = () => {
     const fetchUserDetails = async () => {
       try {
         if (!token) return;
-        const res = await axios.get("http://localhost:5000/api/auth/users/me", {
+        const res = await axios.get("https://countryhubbackend-production.up.railway.app/api/auth/users/me", {
           headers: {
             Authorization: `Bearer ${token}`,
             "Cache-Control": "no-cache",
