@@ -26,7 +26,7 @@ function FavoriteCountries() {
         document.title = "COUNTRY HUB | Favorite Countries";
         const fetchFavorites = async () => {
             try {
-                const res = await fetch("http://localhost:5000/api/favorites", {
+                const res = await fetch("https://countryhub-backend.vercel.app/api/favorites", {
                     headers: {
                         Authorization: `Bearer ${token}`,
                     },

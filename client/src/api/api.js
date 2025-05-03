@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api"; 
+const API_URL = "https://countryhub-backend.vercel.app/api"; 
 
 // Login the user
 export const loginUser = async (formData) => {
