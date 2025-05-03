@@ -16,12 +16,16 @@ const app = express();
 // Middlewares
 app.use(express.json());
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://countryhub-frontend.vercel.app/",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
 app.use(helmet());
 app.use(morgan("dev"));
+
+app.get("/", (req, res) => {
+    res.send("API is working 🚀");
+});
 
 // Routes
 app.use("/api/auth", authRoutes);
@@ -32,4 +36,4 @@ const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 */
 
-export const handler = serverless(app);
+export default serverless(app);
