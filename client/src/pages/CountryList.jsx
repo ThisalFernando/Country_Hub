@@ -97,7 +97,7 @@ function CountryList() {
 
     return (
         <div className="animate-gradient bg-gradient-to-r from-blue-400 via-white to-blue-400 bg-size-200 bg-pos-0">
-        <div className="pt-20 container mx-auto p-2">
+        <div className="pt-15 container mx-auto p-2">
             
             {/* Site Logo and name */}
             <div className="flex items-center justify-center mt-[20px]">
