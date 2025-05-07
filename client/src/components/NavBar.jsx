@@ -57,9 +57,9 @@ const Navbar = () => {
       cancelButtonText: "Cancel",
       customClass: {
         confirmButton:
-          "w-[400px] bg-blue-700 hover:bg-black text-white font-bold py-2 px-4 rounded-lg transition duration-300",
+          "w-[300px] bg-blue-700 hover:bg-black text-white font-bold py-2 px-4 rounded-lg transition duration-300",
         cancelButton:
-          "w-[400px] bg-red-600 hover:bg-red-400 text-white font-bold py-2 px-4 rounded-lg transition duration-300",
+          "w-[300px] bg-red-600 hover:bg-red-400 text-white font-bold py-2 px-4 rounded-lg transition duration-300",
       },
     }).then((result) => {
       if (result.isConfirmed) {
