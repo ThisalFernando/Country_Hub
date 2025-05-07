@@ -27,7 +27,7 @@ const Login = () => {
         icon: "success",
         confirmButtonText: "Okay",
         customClass: {
-          confirmButton: 'w-[400px] bg-blue-700 hover:bg-black text-white font-bold py-2 px-4 rounded-lg transition duration-300'
+          confirmButton: 'w-[300px] bg-blue-700 hover:bg-black text-white font-bold py-2 px-4 rounded-lg transition duration-300'
         },
         buttonsStyling: false,
       }).then((result) => {
@@ -42,7 +42,7 @@ const Login = () => {
         icon: "error",
         confirmButtonText: "Try Again!",
         customClass: {
-          confirmButton: 'w-[400px] bg-blue-700 hover:bg-black text-white font-bold py-2 px-4 rounded-lg transition duration-300'
+          confirmButton: 'w-[300px] bg-blue-700 hover:bg-black text-white font-bold py-2 px-4 rounded-lg transition duration-300'
         },
         buttonsStyling: false,
       });
