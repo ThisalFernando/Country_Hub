@@ -84,7 +84,7 @@ const Navbar = () => {
             </span>
             {/* Display logged user name */}
             {user?.name && !isAuthPage && (
-              <div className="text-sm font-semibold">
+              <div className="text-0.5xl sm:text-1xl font-semibold">
                 Welcome back, {user.name}👋
               </div>
             )}
