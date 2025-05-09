@@ -129,7 +129,7 @@ function FavoriteCountries() {
             </div>
 
             {/* Back Button */} 
-            <Link to="/countries" className="flex items-center text-black hover:text-blue-700 font-bold mt-[70px]"><ArrowLeftIcon className="h-6 w-6 text-black hover:text-blue-700 mr-2" />BACK TO HOME</Link><br/>
+            <Link to="/countries" className="flex items-center text-black hover:text-blue-700 font-bold mt-10 sm:mt-[70px] text-sm sm:text-base md:text-lg"><ArrowLeftIcon className="h-4 w-4 sm:h-5 sm:w-5 md:h-6 md:w-6 text-black hover:text-blue-700 mr-2" />BACK TO HOME</Link><br/>
 
             {/* Display the favorite countriies the user added */}
             {loading ? (
