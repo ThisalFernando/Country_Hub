@@ -79,7 +79,7 @@ const Navbar = () => {
         <Link to="https://res.cloudinary.com/fmart/image/upload/v1745471470/CountryHubLogo_xpgvql.png" className="flex items-center">
           <img src={CHLogo} alt="Logo" className="w-12 h-12 mr-2" />
           <div>
-            <span className="text-2xl font-bold">
+            <span className="text-1xl sm:text-2xl font-bold">
               COUNTRY <span className="text-black">HUB</span>
             </span>
             {/* Display logged user name */}
