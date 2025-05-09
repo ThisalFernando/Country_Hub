@@ -147,7 +147,7 @@ function CountryList() {
 
             <div className="flex items-center justify-center mt-[70px]">
                 <div className="flex-grow border-t border-blue-700 mb-4"></div>
-                <h2 className="font-roboto text-2xl font-bold text-center mb-4 mx-4 tracking-widest">COUNTRIES OF THE WORLD</h2>
+                <h2 className="font-roboto text-1xl sm:text-2xl font-bold text-center mb-4 mx-4 tracking-widest">COUNTRIES OF THE WORLD</h2>
                 <div className="flex-grow border-t border-blue-700 mb-4"></div>
             </div>
 
