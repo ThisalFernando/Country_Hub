@@ -25,11 +25,11 @@ function CountryDetails(){
         <div className="pt-20 container mx-auto p-2">
 
             {/* Site name and logo */}
-            <div className="flex items-center justify-center mt-[20px]">
-                <img src={CHLogo} alt="Logo" className="w-20 h-20" />
-                <div className="banner items-center justify-center">
-                    <h1 className="font-roboto text-5xl font-bold text-center ml-2">COUNTRY <span className="text-blue-700">HUB</span></h1>
-                    <h5 className="font-roboto text-[0.7rem] font-bold text-center text-black ml-4 tracking-[0.85em]">LEARN ABOUT COUNTRIES</h5>
+            <div className="flex items-center justify-center mt-[20px] flex-wrap">
+                <img src={CHLogo} alt="Logo" className="w-12 h-12 sm:w-20 sm:h-20" />
+                <div className="banner items-center justify-center ml-2 sm:ml-4">
+                    <h1 className="font-roboto text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center">COUNTRY <span className="text-blue-700">HUB</span></h1>
+                    <h5 className="font-roboto text-[0.4rem] sm:text-[0.6rem] md:text-[0.7rem] font-bold text-center text-black tracking-[0.5em] sm:tracking-[0.75em]">LEARN ABOUT COUNTRIES</h5>
                 </div>
             </div>
             <div className="flex items-center justify-center my-6">
